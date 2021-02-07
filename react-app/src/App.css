@@ -1,0 +1,215 @@
+body {
+    background-color: #010101;
+    color: white;
+    /* background-color: white;
+    color: black;  */
+}
+.icon-color{
+    color: orange;
+}
+#experience {
+    padding-bottom: 100px;
+}
+
+.middle-content {
+    text-align: center;
+}
+
+.time-circle {
+    position: relative;
+    top: 5px;
+    border:3px solid #000;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 2px orange;
+    z-index: 9;
+    font-size: 12px;
+}
+
+.right-content {
+    display: block;
+    padding: 10px;
+    float: right;
+}
+.left-content {
+    text-align:right;
+}
+.right-content ul {
+    list-style-type: none
+}
+
+.vert-line {
+    height: calc(100% + 20px);
+    background-color: white;
+    width: 2px;
+    margin: 0 auto;
+    position: relative;
+    top: -20px;
+}
+
+.experience-content {
+    margin-bottom: 20px;
+}
+
+.portfolio-card {
+    padding: 0px;
+    margin-bottom: 20px;
+    max-width: 350px;
+    border: none;
+}
+
+.bg-portfolio {
+    background-color: #010101;
+}
+
+.certi-border {
+    /* border: 1px solid orange;
+    padding: 10px; */
+}
+
+.skill-tags {
+    border: 1px solid orange;
+    display: inline-block;
+    padding: 3px 10px;
+    margin: 5px;
+    border-radius: 7px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+a .fa {
+    text-decoration: none;
+    color: #fff;
+}
+
+.section-title {
+    padding: 50px 0 30px;
+}
+
+.my-progress-title {
+    margin-bottom: 4px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.my-progress-title span {
+    font-weight: normal;
+}
+
+.progress {
+    border: 1px solid #ff9800;
+    padding: 3px;
+    background-color: #ffffff00;
+    height: 14px;
+    border-radius: 10px;
+}
+
+.progress-bar {
+    background-color: #ff9800;
+    border-radius: 10px;
+}
+
+.btn {
+    border: 1px solid #ff9800;
+    background-color: #ffffff00;
+}
+
+.btn:hover {
+    border: 1px solid #ff9800;
+    background-color: #ff9800;
+}
+
+.about-content {
+    padding: 0px;
+    font-weight: bold;
+    margin: 0px;
+    width: auto;
+    text-align: justify;
+    left: 60%;
+    top: 20%;
+}
+
+.wel-img {
+    max-width: 70%;
+}
+
+.bg-color {
+    background-color: #fff0;
+}
+
+.container {
+    padding: 0px;
+    max-width: 1240px;
+}
+
+/*
+   * Custom translucent site header #373737
+   */
+
+.site-header {
+    background-color: rgba(0, 0, 0, .85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+}
+
+.site-header a {
+    color: #fff;
+    transition: color .15s ease-in-out;
+    text-decoration: none;
+    /* */
+}
+
+.site-header a:hover {
+    color: #ff9800;
+    text-decoration: none;
+}
+
+/*
+   * Dummy devices (replace them with your own or something else entirely!)
+   */
+
+.product-device {
+    position: absolute;
+    right: 10%;
+    bottom: -30%;
+    width: 300px;
+    height: 540px;
+    background-color: #333;
+    border-radius: 21px;
+    transform: rotate(30deg);
+}
+
+.product-device::before {
+    position: absolute;
+    top: 10%;
+    right: 10px;
+    bottom: 10%;
+    left: 10px;
+    content: "";
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 5px;
+}
+
+.product-device-2 {
+    top: -25%;
+    right: auto;
+    bottom: 0;
+    left: 5%;
+    background-color: #e5e5e5;
+}
+
+/*
+   * Extra utilities
+   */
+
+.flex-equal>* {
+    flex: 1;
+}
+
+@media (min-width: 768px) {
+    .flex-md-equal>* {
+        flex: 1;
+    }
+}
